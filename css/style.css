@@ -134,50 +134,38 @@ h5 {
   justify-content: flex-end;
 }
 
-
-.clients {
-  display: grid;
-  grid-template-columns: 50% 25% 25%;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "client 0 client 1 client 2"
-    "client 0 client 3 client 4";
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-#client0 {
-  grid-area: "client0";
-  size: auto;
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
 }
 
-#client1 {
-  grid-area: "client1";
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
-
-#client2 {
-  grid-area: "client2";
-}
-
-#client3 {
-  grid-area: "client3";
-}
-
-#client4 {
-  grid-area: "client4";
-}
-
 
 .page-section-contact {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end;
   background-color: var(--white);
-  height: 100px;
   padding: 2mm;
+}
+
+#contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
 }
 
 section ul li {
   display: flex;
+  align-items: flex-end;
   justify-content: flex-end;
 }
 
@@ -193,43 +181,8 @@ footer h2 {
   color: black;
 }
 
-/*
-main {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr 1fr 11fr;
-grid-template-areas: 
-"titles titles titles"
-"bio bio block"
-"bio bio block";
+@media only screen and (max-width: 600px) {
+  nav {
+    display: none
+  }
 }
-
-header nav ul li {
-display: inline-block;
-flex-direction: flex-end;
-margin-left: 25px;}
-
-#titles {
-grid-area: titles;
-flex-flow: row-reverse nowrap;}
-
-#img {
-grid-area: img;
-flex-flow: flex-start stretch;
-}
-
-#bio {
-grid-area: bio;
-background-color: var(--coral);
-color: var(--white);
-}
-
-#block {
-grid-area: block;
-}
-*/
-
-
-
-
-/* Don't forget media queries */
