@@ -15,3 +15,7 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 * When presented with the your first application then that application's image should be larger in size than the others
 * When images of the applications are clicked then the user is taken to that deployed application
 * When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
+
+
+https://emilycsimpson.github.io/Challenge2/
+
