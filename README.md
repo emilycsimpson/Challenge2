@@ -18,4 +18,4 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 
 https://emilycsimpson.github.io/Challenge2/
 
-![portfolio demo](./images/cat-sitting/web.jpg)
+![portfolio demo](./images/cat-sitting-web.jpg)
