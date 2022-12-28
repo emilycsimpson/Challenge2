@@ -1,9 +1,8 @@
 # Challenge2
 
+For this challenge we were tasked with setting up a website showcasing our skills. Since I do cat sitting on the side of my full-time job and I don't as yet have much to show from development, I chose to build a website advertising my cat sitting. 
 
-A portfolio of work can showcase your skills and talents to potential employers. A good portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
- 
-With these points in mind, in this challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+Below I've listed the acceptance criteria we were given. 
 
 ## Acceptance Criteria
 
@@ -19,3 +18,4 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 
 https://emilycsimpson.github.io/Challenge2/
 
+![portfolio demo](./images/cat-sitting/web.jpg)
